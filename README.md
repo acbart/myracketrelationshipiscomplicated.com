@@ -1,12 +1,12 @@
-
-
 # Introduction
 
-Which language should be used in a CS1? There isn't very much research to suggest conclusively what makes the biggest difference in a classroom, and it doesn't seem like the Language debate is over. However, here are the reasons why Racket is less preferable than Python here at UD right now.
+Which language should be used in a CS1? There isn't very much research to suggest conclusively what makes the biggest difference in a classroom, and it doesn't seem like the Language debate is over. However, I believe there are reasons why Racket is less preferable than Python, at least at my institution right now.
 
-Fundamentally, the argument here is about pragmatics. The language we use is far less important than the way we teach. You can teach an amazing CS1 with Cobol, if you are a good enough teacher. However, teachers need to be able to rely on external resources, good pedagogical training, and a host of extrinsic factors. At the end of the day, the Racket community isn't able to provide such resources as well as the Python community.
+Fundamentally, my favorite argument is about pragmatics. The language we use is far less important than the way we teach. You can probably teach an amazing CS1 with Cobol or Brainf*** or PHP, if you are a good enough teacher. However, teachers need to be able to rely on external resources, good pedagogical training, and a host of external factors. At the end of the day, the Racket community isn't able to provide such resources as well as the Python community. That led to the decisions I have made in how I teach CS1.
 
-This is a complicated issue, and everyone I have talked to has had good reasons and good intentions. I think that I have a somewhat unique perspective, and I wanted to capture my thoughts into a document. This website exists half as a dare, but also half as a record of those thoughts.
+Language choice is a complicated issue, and everyone I have talked to has had good reasons and good intentions. I think that I have a somewhat unique perspective, and I wanted to capture my thoughts into a document. This website exists half as a dare, but also half as a record of those thoughts. After a friendly conversation, my colleague bought "ihatepython.com" as a joke. I felt obligated to buy "ihateracket.com". It probably should have ended there, but I had already written the list of arguments, so I figured why not try posting it.
+
+This website will probably be controversial, and I think some people will be disappointed by my arguments. I think there's so much wonderfulness with many of the ideas brought forth by Racket and HtDP. However, I have also seen first-hand the *trauma* that it has caused students. I think that, even with everyone having the best of intentions, something very wrong has occurred with this curriculum. I hope this website goes somewhere in correcting that imbalance. I have nothing but respect for the educational and research triumphs of the curriculum, and I hope any readers walk away with the sense that I want the best for all learners, and to make Computing Education the best it can be.
 
 ## What is Racket and HtDP?
 
@@ -32,7 +32,7 @@ Over the next few years, as I immersed myself into CS Education, I was surprised
 
 ### Assistant Professor
 
-In Fall 2018, I was excited to start an Assistant Professorship at University of Delaware and to finally teach CISC-108. I had expressed doubts about the 108 curriculum before, but I agreed strongly with the advice I had been given: give it a chance. I wanted to see first-hand what it was like to teach. I did my best to present the language and ideas as strongly as I could (obviously, without lying to the students about reality). I was... pleased... I think, that students afterwards were surprised to hear my opinions about the language that I developed as an instructor.
+In Fall 2018, I was excited to start an Assistant Professorship at University of Delaware and to finally teach CISC-108. I had expressed doubts about the 108 curriculum before (which had evolved but fundamentaly remained unchanged in the past decade), but I agreed strongly with the advice I had been given: give it a chance. I wanted to see first-hand what it was like to teach. I did my best to present the language and ideas as strongly as I could (obviously, without lying to the students about reality). I was... pleased... I think, that students afterwards were surprised to hear my opinions about the language that I developed as an instructor.
 
 The experience was awful. Whatever beauty there is from the curriculum, the majority of my students did not see it. Most of them *hated* Racket. Never before have I ever had students ask me "Why are we learning this language?" *multiple times during class throughout the entire semester*. Experienced students considered it bizarre, new students considered it frustrating. Yes, some students got very excited by its intracicies. But these students would have been excited by almost anything I showed them in Computer Science - I could have been teaching Prolog or Piet and they would have been ecstatic.
 
@@ -42,16 +42,13 @@ The strongest defenders among the upperclassmen would usually say some variation
 
 In the spring 2019, I received permission to try redesigning 108 from the ground-up. I chose Python as a language, because most folks use Python, I like Python, and I have had good experiences teaching Python. We are still in the process of redesigning the course, but I was pleased with my first stab. There's still a *ton* I want to fix, but overall the experience was a lot more fun to teach.
 
-My interactions with certain elements of the Racket community have not been positive. Some of them are extremely nice folks with realy cool ideas and excellent research. But some of them are... mean. I have blocked one of HtDP's authors, and one of their community members has blocked me. From my perspective, this is absolutely bizarre in the CS Education community. I haven't heard of such things happening among other subdivisions of SIGCSE folks. But the Racket community, which comes from a Programming Languages background, seems to have a different set of standards. Inherently in academia, different is not wrong - however, I do think the culture difference alienates a lot of folks from the Racket approach. I don't think this kind of thing, present on the landing page of a prominent Racket author, brings more people into their fold:
+My interactions with certain elements of the Racket community have not been positive. Some of them are extremely nice folks with realy cool ideas and excellent research. But some of them are... mean. I have blocked one of HtDP's authors, and one of their community members has blocked me. From my perspective, this is absolutely bizarre in the CS Education community. I haven't heard of such things happening among other subdivisions of SIGCSE folks. But the Racket community, which comes from a Programming Languages background, seems to have a different set of standards. Inherently in academia, different is not wrong - however, I do think the culture difference alienates a lot of folks from the Racket approach. I don't think this kind of thing, present on the landing page of a prominent Racket author website, brings more people into their fold:
 
-[!images/this_feels_aggressive.png]
-
-## Why This Site Exists
-
-My colleague bought "ihatepython.com". I felt obligated to buy "ihateracket.com". It probably should have ended there, but I had already written the list of arguments.
-
+![Screenshot from one of the HtDP authors pages](this_feels_aggressive.png)
 
 # So why not Racket?
+
+When presenting my request to redesign 108, I organized a list of issues regarding Racket in our CS1. This list is reproduced here, more or less intact. They are not particularly ordered.
 
 ## Racket is not a very popular language in professional communities
 
@@ -59,47 +56,50 @@ Scheme is #49 on the Tiobe index, Racket is >#51, and neither shows up on most l
 
 ## Racket is not a very popular language in teaching communities
 
-The list of schools using Racket for CS1 is pretty short compared to other popular languages. This github page lists less than a dozen CS1 courses. The schools that do use it are not particularly notable - old adopters like MIT have since moved on to other languages (i.e., Python).
+The list of schools using Racket for CS1 is pretty short compared to other popular languages. This [github page](https://github.com/racket/racket/wiki/Courses-using-Racket) lists less than a dozen CS1 courses. The schools that do use it are not particularly notable - old adopters like MIT have since moved on to other languages (i.e., Python).
 
-Summary of schools using Racket (from GitHub page) vs. Python (from Guo)
+Summary of schools using Racket (from GitHub page) vs. Python (from [Guo](http://pgbovine.net/CACM-python-most-popular-teaching-language.htm)):
 
 Racket
+* Yale
+* U of Toronto
+* Northwestern
+* Grinnell
+* Berry College
+* Waterloo
+* U of Utah
+* U of British Columbia
+
 Python
-Yale
-U of Toronto
-Northwestern
-Grinnell
-Berry College
-Waterloo
-U of Utah
-U of British Columbia
-CMU
-MIT
-UC Berkeley
-Cornell
-U of Washington
-Georgia Tech
-UT Austin
-Caltech
-U Michigan
-Columbia
-Brown
-Purdue
-Rice
-USC
-Duke
-UMass Amherst
-UNC Chapel Hill
-NYU
-UC Irvine
-UVA
-UCSB
-UC Davis
-U Chicago
-…
+* CMU
+* MIT
+* UC Berkeley
+* Cornell
+* U of Washington
+* Georgia Tech
+* UT Austin
+* Caltech
+* U Michigan
+* Columbia
+* Brown
+* Purdue
+* Rice
+* USC
+* Duke
+* UMass Amherst
+* UNC Chapel Hill
+* NYU
+* UC Irvine
+* UVA
+* UCSB
+* UC Davis
+* U Chicago
+* ...
 
 
 The following table is from a paper analyzing introductory computing courses. Given the margin of error (roughly 4%), it’s possible that Racket is less popular than Pascal globally.
+
+![Racket is not popular](language_popularity.png)
 
 > Andrew Luxton-Reilly, Brett A. Becker, Yingjun Cao, Roger McDermott, Claudio Mirolo, Andreas Mühling, Andrew Petersen, Kate Sanders, Simon, and Jacqueline Whalley. 2018. Developing Assessments to Determine Mastery of Programming Fundamentals. In Proceedings of the 2017 ITiCSE Conference on Working Group Reports (ITiCSE-WGR '17). ACM, New York, NY, USA, 47-69. DOI: https://doi.org/10.1145/3174781.3174784
 
@@ -133,24 +133,24 @@ Unless going into very specialized courses, students are extremely unlikely to h
 ## Students do not like Racket
 
 Survey of students in CISC108 this fall (N=126/156=80.8% response rate, MOE of <4%).
-62% like the course so far
-76% like the instructor
-75% comfortable with their classmates
-71% want to take more CS classes
-61% intend to major in CS (stable from start of semester)
-22% like Racket so far
-25% interested in learning more Racket
+* 62% like the course so far
+* 76% like the instructor
+* 75% comfortable with their classmates
+* 71% want to take more CS classes
+* 61% intend to major in CS (stable from start of semester)
+* *22% like Racket so far*
+* *25% interested in learning more Racket*
 
 ## Students do not carry their Racket experience Forward
 
 Here is some data from a survey of 42 CISC320 students (predominantly Junior CS majors). Only a small number of students indicated they were comfortable and liked Racket - in an in-class informal survey, no students indicated that Racket was their most preferred language to use.
 
 Specific, formal survey question (T/F style): "Please Indicate if you like and are comfortable with each of the following languages:"
-Java: 93%
-C/C++: 74%
-Python: 38%
-JavaScript: 21%
-Racket: 7%
+* Java: 93%
+* C/C++: 74%
+* Python: 38%
+* JavaScript: 21%
+* *Racket: 7%*
 
 ## Design Recipe Is Not Well-Evidenced
 
