@@ -6,23 +6,31 @@ Which language should be used in a CS1? There isn't very much research to sugges
 
 Fundamentally, the argument here is about pragmatics. The language we use is far less important than the way we teach. You can teach an amazing CS1 with Cobol, if you are a good enough teacher. However, teachers need to be able to rely on external resources, good pedagogical training, and a host of extrinsic factors. At the end of the day, the Racket community isn't able to provide such resources as well as the Python community.
 
+This is a complicated issue, and everyone I have talked to has had good reasons and good intentions. I think that I have a somewhat unique perspective, and I wanted to capture my thoughts into a document. This website exists half as a dare, but also half as a record of those thoughts.
+
 ## What is Racket and HtDP?
 
-Racket is a programming language, a community, an environment, and a way of life.
+[Racket](https://racket-lang.org/) is a programming language, a system for making programming languages, a community, an environment, and a way of life. Originally called Scheme, descended from Lisp, and built on a Functional Programming paradigm. In educational contexts, it is often used to refer to the "How to Design Programs" (HtDP) curriculum. This is an introductory Computer Science curriculum ("CS1") centered around a free, open textbook for Racket. Students transition through escalating levels of language design in an environment (Dr. Racket) that natively supports image and game manipulation, along with a large number of powerful computational ideas. Students loop using recursion and focus on functions, testing, and functional decomposition from the very beginning. 
 
-HtDP stands for "How to Design Programs".
+I doubt I can do justice to the beautiful vision outlined for Racket and HtDP, so instead you are probably better off looking at their vision to formulate your own opinion, before you dive too far into my own. Here is a link to the prologue of their book [https://htdp.org/2019-02-24/part_preface.html](https://htdp.org/2019-02-24/part_preface.html).
 
 ## My History with Racket
 
 I have perhaps one of the most unique relationships with Racket that is possible in the CS Education community. 10 years ago, in Fall 2008, I started at the University of Delaware as as freshman Computer Science major in "CISC-108 Introduction to Computer Science I". I didn't know it at the time, but this semester was the pilot of a new introductory curriculum based on a textbook named "How to Design Programs". What I did know was a weird amount of Computer Science. As a straight-white-middle-class-son-of-a-computer-scientist, I had a lot of programming experience. Mostly game development, but I had gone through my father's old Pascal textbooks a few times. I wasn't able to make any sense of the examples in the Java textbooks I had found, but I thought the ideas sounded cool. I was thrilled to see what "Computer Science" was.
 
+### Undergraduate
+
 CISC108 was a fascinating experience, and I seem to have had a good time. The professor was enthusiastic and the ideas were all very novel to me. I distinctly remember a reading by Jeannette Wing (the now-famous Computational Thinking paper) that made me feel that I was learning something very special. The fact that everything was *so weird* was great. I was one of the special elect, and clearly some truly brillant minds had figured out the *optimal* CS learning experience. I didn't talk to many classmates at that point, so I don't know what the rest of the class thought about it.
 
 A few years later, I was chosen as a TA for the course. It was an amazing experience as well. However, I do remember some students struggled with the curriculum. I was energized by my meetings with students, even when they didn't understand things. I didn't have context for whether things were normal or not - I just knew that teaching was fun, and I really wanted to figure out how to make this perfect curriculum just a little more accessible. I even started an outline of an online website that would act as a "Everything You Need to Know to Pass 108".
 
+### Graduate School
+
 When I decided to pursue a PhD focused on Computer Science Education, I naturally assumed that the HtDP curriculum would figure into things. I was surprised that so few of my professors at Virginia Tech were aware of it. If I had been more aware of VT's standing in the CS Ed community, this would probably have raised more flags. It seemed natural to me that the CORGIS project would support Racket, just as it would support Python and Java. In fact, I think supporting Racket is one of the key reasons we were able to publish so effectively at Splash-E. I had a particularly positive review by one of the HtDP authors - my advisor even remarked that it was unusual that A) the author in question was so effusive, and B) the author signed their name.
 
 Over the next few years, as I immersed myself into CS Education, I was surprised by what I learned about the HtDP curriculum. Or rather, what I did not learn. There is a simple, awful truth about the curriculum: not much research has been done with it. If you review the publications, you can find one very interesting, well-done study by Kathi Fisler that looks at the Rainfall Problem [TODO](TODO). This paper suggests that the curriculum leads to better Functional Decomposition skills by students, and that this may push some students to better results. That's great, but is hardly a large base to draw upon - for a decade old project, I would say it is actually a pitiful amount of evidence. I don't know what exactly triggered the realization, but some time by the end of my dissertation, I recall an uncomfortable feeling - were those beautiful arguments I heard freshman year based on hypothesis or evidence?
+
+### Assistant Professor
 
 In Fall 2018, I was excited to start an Assistant Professorship at University of Delaware and to finally teach CISC-108. I had expressed doubts about the 108 curriculum before, but I agreed strongly with the advice I had been given: give it a chance. I wanted to see first-hand what it was like to teach. I did my best to present the language and ideas as strongly as I could (obviously, without lying to the students about reality). I was... pleased... I think, that students afterwards were surprised to hear my opinions about the language that I developed as an instructor.
 
@@ -30,7 +38,13 @@ The experience was awful. Whatever beauty there is from the curriculum, the majo
 
 The strongest defenders among the upperclassmen would usually say some variation of, "Well, I enjoyed it... But I don't think anyone else did." At least one senior was very cross with me when they found out I was redesigning the course for the Spring to be in Python - why hadn't it been redesigned before *they* had to take the class?
 
-I suspect some folks may attack my understanding of Racket. "Aha", they will say, "Racket is not a language, it is a meta-language for creating other languages." Yes, the vision for the Racketlang community is a beautiful, rich one that draws upon brilliant ideas. However, I am referring to a particular approach dictated around the "How to Design Programs" curriculum, the language sequence ("beginner", "intermediate", and "advanced"), and the editor ("Dr. Racket"). It is this curriculum and community that I am discussing in this website.
+### Post-Fall 2018
+
+In the spring 2019, I received permission to try redesigning 108 from the ground-up. I chose Python as a language, because most folks use Python, I like Python, and I have had good experiences teaching Python. We are still in the process of redesigning the course, but I was pleased with my first stab. There's still a *ton* I want to fix, but overall the experience was a lot more fun to teach.
+
+My interactions with certain elements of the Racket community have not been positive. Some of them are extremely nice folks with realy cool ideas and excellent research. But some of them are... mean. I have blocked one of HtDP's authors, and one of their community members has blocked me. From my perspective, this is absolutely bizarre in the CS Education community. I haven't heard of such things happening among other subdivisions of SIGCSE folks. But the Racket community, which comes from a Programming Languages background, seems to have a different set of standards. Inherently in academia, different is not wrong - however, I do think the culture difference alienates a lot of folks from the Racket approach. I don't think this kind of thing, present on the landing page of a prominent Racket author, brings more people into their fold:
+
+[!images/this_feels_aggressive.png]
 
 ## Why This Site Exists
 
@@ -140,5 +154,4 @@ Racket: 7%
 
 ## Design Recipe Is Not Well-Evidenced
 
-Despite being ten years old, there is relatively little research to demonstrate the value of “Design Recipes” as a pedagogical approach, especially one that has long term benefits. Kathi Fisler’s research indicates that students may be more prepared to apply principles of Functional Decomposition through this approach than students who do not, based on studies of the Rainfall Problem. Is this unique to using Racket? It’s a reasonable hypothesis, but not a proven fact. Beyond that, I can’t say there’s much research out there to support the bold claims made by the research group. When you dive into their literature, you will often find them citing the same set of small papers over the years. Even more frightening, there are folks citing their textbook or theory papers as arguments for the effectiveness of the research. Anecdotal evidence abounds, but a shockingly small amount of research has emerged from this pedagogical direction.
-
+Despite being ten years old, there is relatively little research to demonstrate the value of “Design Recipes” as a pedagogical approach, especially one that has long term benefits. Kathi Fisler’s research indicates that students may be more prepared to apply principles of Functional Decomposition through this approach than students who do not, based on studies of the Rainfall Problem. Is this unique to using Racket? It’s a reasonable hypothesis, but not a proven fact. Beyond that, I can’t say there’s much research out there to support the bold claims made by the research group. When you dive into their literature, you will often find them citing the same set of small papers over the years. Even more frightening, there are folks citing their textbook or theory papers as arguments for the effectiveness of the research. Anecdotal evidence abounds, but a shockingly small amount of research has emerged from this pedagogical direction. To my personal horror, this is [more or less intentional](https://felleisen.org/matthias/Thoughts/Measuring_education.html).
