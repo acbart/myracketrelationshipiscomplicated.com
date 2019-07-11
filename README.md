@@ -1,6 +1,6 @@
 # Introduction
 
-Which language should be used in a CS1? There isn't very much research to suggest conclusively what makes the biggest difference in a classroom, and it doesn't seem like the Language debate is over. However, I believe there are reasons why Racket is less preferable than Python, at least at my institution right now.
+Which language should be used in a CS1? There isn't very much research to suggest conclusively what makes the biggest difference in a classroom, and it doesn't seem like the language debate will ever end. However, I believe there are reasons why Racket is less preferable than Python, at least at my institution right now.
 
 Fundamentally, my favorite argument is about pragmatics. The language we use is far less important than the way we teach. You can probably teach an amazing CS1 with Cobol or Brainf*** or PHP, if you are a good enough teacher. However, teachers need to be able to rely on external resources, good pedagogical training, and a host of external factors. At the end of the day, the Racket community isn't able to provide such resources as well as the Python community. That led to the decisions I have made in how I teach CS1.
 
