@@ -1,3 +1,4 @@
+<!--
 Table of Contents:
 
 * [Introduction](#introduction)
@@ -5,6 +6,7 @@ Table of Contents:
 * [My History with Racket](#my-history-with-racket)
 * [So Why Not Racket?](#so-why-not-racket)
 * [So What?](#so-what)
+-->
 
 # Introduction
 
@@ -197,6 +199,6 @@ Does it help to force students to write signatures before they write functions? 
 
 # So What?
 
-Just to reiterate, this website was recreated half as a record, half as a joke. I think most folks who are aware of this debate have already taken a side. I doubt my evidence will be sufficient for changing anyone's heart. But I still felt that there was value in putting this together. I hope you can see value in my perspective, just as I still see the value in the Racket community's perspective.
+Just to reiterate, this website was recreated half as a record, half as a joke. I tried to back up my claims with citations and data, but it's always hard to dig these things up. I think most folks who are aware of this debate have already taken a side. I doubt my evidence will be sufficient for changing anyone's heart. But I still felt that there was value in putting this together. I hope you can see value in my perspective, just as I still see the value in the Racket community's perspective.
 
 As long as they keep that perspective far away from my Freshmen.
