@@ -1,3 +1,11 @@
+Table of Contents:
+
+* [Introduction](#introduction)
+* [What Is Racket and PbD?](#what-is-racket-and-pbd)
+* [My History with Racket](#my-history-with-racket)
+* [So Why Not Racket?](#so-why-not-racket)
+* [So What?](#so-what)
+
 # Introduction
 
 Which language should be used in a CS1? There isn't very much research to suggest conclusively what makes the biggest difference in a classroom, and it doesn't seem like the language debate will ever end. However, I believe there are reasons why Racket is less preferable than Python, at least at my institution right now.
@@ -6,13 +14,15 @@ Fundamentally, my favorite argument is about pragmatics. The language we use is 
 
 Language choice is a complicated issue, and everyone I have talked to has had good reasons and good intentions. I think that I have a somewhat unique perspective, and I wanted to capture my thoughts into a document. This website exists half as a dare, but also half as a record of those thoughts. After a friendly conversation, my colleague bought "ihatepython.com" as a joke. I felt obligated to buy "ihateracket.com". It probably should have ended there, but I had already written the list of arguments, so I figured why not try posting it.
 
-This website will probably be controversial, and I think some people will be disappointed by my arguments. I think there's so much wonderfulness with many of the ideas brought forth by Racket and HtDP. However, I have also seen first-hand the *trauma* that it has caused students. I think that, even with everyone having the best of intentions, something very wrong has occurred with this curriculum. I hope this website goes somewhere in correcting that imbalance. I have nothing but respect for the educational and research triumphs of the curriculum, and I hope any readers walk away with the sense that I want the best for all learners, and to make Computing Education the best it can be.
+This website will probably be controversial, and I think some people will be disappointed by my arguments. I think there's so much wonderfulness with many of the ideas brought forth by Racket and PbD. However, I have also seen first-hand the *trauma* that it has caused students. I think that, even with everyone having the best of intentions, something very wrong has occurred with this curriculum. I hope this website goes somewhere in correcting that imbalance. I have nothing but respect for the educational and research triumphs of the curriculum, and I hope any readers walk away with the sense that I want the best for all learners, and to make Computing Education the best it can be.
 
-## What is Racket and HtDP?
+# What is Racket and ProgramByDesign?
 
-[Racket](https://racket-lang.org/) is a programming language, a system for making programming languages, a community, an environment, and a way of life. Originally called Scheme, descended from Lisp, and built on a Functional Programming paradigm. In educational contexts, it is often used to refer to the "How to Design Programs" (HtDP) curriculum. This is an introductory Computer Science curriculum ("CS1") centered around a free, open textbook for Racket. Students transition through escalating levels of language design in an environment (Dr. Racket) that natively supports image and game manipulation, along with a large number of powerful computational ideas. Students loop using recursion and focus on functions, testing, and functional decomposition from the very beginning. 
+[Racket](https://racket-lang.org/) is a programming language, a system for making programming languages, a community, an environment, and a way of life. Originally called Scheme, descended from Lisp, and built on a Functional Programming paradigm. In educational contexts, it is often used to refer to the "Program by Design" curriculum. This is an introductory Computer Science curriculum ("CS1") centered around a free, open textbook for Racket named "How to Design Programs" (HtDP). Students transition through escalating levels of language design in an environment (Dr. Racket) that natively supports image and game manipulation, along with a large number of powerful computational ideas. Students loop using recursion and focus on functions, testing, and functional decomposition from the very beginning. 
 
-I doubt I can do justice to the beautiful vision outlined for Racket and HtDP, so instead you are probably better off looking at their vision to formulate your own opinion, before you dive too far into my own. Here is a link to the prologue of [their book](https://htdp.org/2019-02-24/part_preface.html).
+I doubt I can do justice to the beautiful vision outlined for Racket and PbD, so instead you are probably better off looking at their vision to formulate your own opinion, before you dive too far into my own. Here is a link to the prologue of [their book](https://htdp.org/2019-02-24/part_preface.html).
+
+The [Wikipedia page on the project](https://en.wikipedia.org/wiki/ProgramByDesign) also offers some good history, if you want something neutral. This article covers the idea of the Design Recipe, which is a fundamental component of their model.
 
 # My History with Racket
 
@@ -26,9 +36,9 @@ A few years later, I was chosen as a TA for the course. It was an amazing experi
 
 ## Graduate Student
 
-When I decided to pursue a PhD focused on Computer Science Education, I naturally assumed that the HtDP curriculum would figure into things. I was surprised that so few of my professors at Virginia Tech were aware of it. If I had been more aware of VT's standing in the CS Ed community, this would probably have raised more flags. It seemed natural to me that the CORGIS project would support Racket, just as it would support Python and Java. In fact, I think supporting Racket is one of the key reasons we were able to publish so effectively at Splash-E. I had a particularly positive review by one of the HtDP authors - my advisor even remarked that it was unusual that A) the author in question was so effusive, and B) the author signed their name.
+When I decided to pursue a PhD focused on Computer Science Education, I naturally assumed that the PbD curriculum would figure into things. I was surprised that so few of my professors at Virginia Tech were aware of it. If I had been more aware of VT's standing in the CS Ed community, this would probably have raised more flags. It seemed natural to me that the CORGIS project would support Racket, just as it would support Python and Java. In fact, I think supporting Racket is one of the key reasons we were able to publish so effectively at Splash-E. I had a particularly positive review by one of the PbD authors - my advisor even remarked that it was unusual that A) the author in question was so effusive, and B) the author signed their name.
 
-Over the next few years, as I immersed myself into CS Education, I was surprised by what I learned about the HtDP curriculum. Or rather, what I did not learn. There is a simple, awful truth about the curriculum: not much research has been done with it. If you review the publications, you can find one very interesting, well-done study that looks at the Rainfall Problem [https://dl.acm.org/citation.cfm?id=3106183](https://dl.acm.org/citation.cfm?id=3106183). This paper suggests that the curriculum leads to better Functional Decomposition skills by students, and that this may push some students to better results. That's great, but is hardly a large base to draw upon - for a decade old project, I would say it is actually a pitiful amount of evidence. I don't know what exactly triggered the realization, but some time by the end of my dissertation, I recall an uncomfortable feeling - were those beautiful arguments I heard freshman year based on hypothesis or evidence?
+Over the next few years, as I immersed myself into CS Education, I was surprised by what I learned about the PbD curriculum. Or rather, what I did not learn. There is a simple, awful truth about the curriculum: not much research has been done with it. If you review the publications, you can find one very interesting, well-done study that looks at the Rainfall Problem [https://dl.acm.org/citation.cfm?id=3106183](https://dl.acm.org/citation.cfm?id=3106183). This paper suggests that the curriculum leads to better Functional Decomposition skills by students, and that this may push some students to better results. That's great, but is hardly a large base to draw upon - for a decade old project, I would say it is actually a pitiful amount of evidence. I don't know what exactly triggered the realization, but some time by the end of my dissertation, I recall an uncomfortable feeling - were those beautiful arguments I heard freshman year based on hypothesis or evidence?
 
 ## Assistant Professor
 
@@ -42,7 +52,7 @@ The strongest defenders among the upperclassmen would usually say some variation
 
 In the spring 2019, I received permission to try redesigning 108 from the ground-up. I chose Python as a language, because most folks use Python, I like Python, and I have had good experiences teaching Python. We are still in the process of redesigning the course, but I was pleased with my first stab. There's still a *ton* I want to fix, but overall the experience was a lot more fun to teach.
 
-What works for me may not work for others. I know that many HtDP adopters will tell me that their courses are perfectly fine experiences that don't traumatize learners. Fabulous for their students, if true (I'd love to see evidence to back up their claims, of course). But I can clearly say that Racket is not working where I'm at, and it's high time for a change.
+What works for me may not work for others. I know that many PbD adopters will tell me that their courses are perfectly fine experiences that don't traumatize learners. Fabulous for their students, if true (I'd love to see evidence to back up their claims, of course). But I can clearly say that Racket is not working where I'm at, and it's high time for a change.
 
 # So why not Racket?
 
@@ -183,7 +193,7 @@ Specific, formal survey question (T/F style): "Please Indicate if you like and a
 
 Despite being ten years old, there is relatively little research to demonstrate the value of "Design Recipes" as a pedagogical approach, especially one that has long term benefits. [One research study by the group](https://dl.acm.org/citation.cfm?id=3106183) indicates that students may be more prepared to apply principles of Functional Decomposition through this approach than students who do not, based on studies of the Rainfall Problem. Is this unique to using Racket? It’s a reasonable hypothesis, but not a proven fact. Beyond that, I can’t say there’s much research out there to support the bold claims made by the research group. When you dive into their literature, you will often find them citing the same set of small papers over the years. Even more frightening, there are folks citing their textbook or theory papers as arguments for the effectiveness of the research. Anecdotal evidence abounds, but a shockingly small amount of research has emerged from this pedagogical direction. To my personal horror, this is [more or less intentional](https://felleisen.org/matthias/Thoughts/Measuring_education.html).
 
-Does it help to force students to write signatures before they write functions? Are tests before bodies critical to success? Is learning more likely to occur when you write good purpose statements? Perhaps. I can point to several more generalized research studies that dissect these claims in somewhat related ways. However, the particular bundle of ideas that the HtDP community believes with religious fervor are not well-evidenced.
+Does it help to force students to write signatures before they write functions? Are tests before bodies critical to success? Is learning more likely to occur when you write good purpose statements? Perhaps. I can point to several more generalized research studies that dissect these claims in somewhat related ways. However, the particular bundle of ideas that the PbD community believes with religious fervor are not well-evidenced.
 
 # So What?
 
