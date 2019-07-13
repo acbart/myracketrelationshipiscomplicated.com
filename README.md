@@ -42,7 +42,7 @@ The strongest defenders among the upperclassmen would usually say some variation
 
 In the spring 2019, I received permission to try redesigning 108 from the ground-up. I chose Python as a language, because most folks use Python, I like Python, and I have had good experiences teaching Python. We are still in the process of redesigning the course, but I was pleased with my first stab. There's still a *ton* I want to fix, but overall the experience was a lot more fun to teach.
 
-My interactions with certain elements of the Racket community have not been positive. Some of them are extremely nice folks with realy cool ideas and excellent research. But some of them are... mean. After some intense exchanges on Twitter, I have blocked one of HtDP's authors, and one of their community members has blocked me. From my perspective, this is absolutely bizarre in the CS Education community. I haven't heard of such things happening among other subdivisions of SIGCSE folks. But the Racket community, which comes from a Programming Languages background, seems to have a different set of standards. Inherently in academia, different is not wrong - however, I do think the culture difference alienates a lot of folks from the Racket approach.
+What works for me may not work for others. I know that many HtDP adopters will tell me that their courses are perfectly fine experiences that don't traumatize learners. Fabulous for their students, if true (I'd love to see evidence to back up their claims, of course). But I can clearly say that Racket is not working where I'm at, and it's high time for a change.
 
 # So why not Racket?
 
