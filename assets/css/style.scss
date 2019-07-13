@@ -32,11 +32,6 @@ p.tagline {
    padding-top: 0px;
 }
 
-.current-section {
-   max-width: 500px;
-   width: 100%;
-}
-
 footer .owner .avatar {
    max-width: 60px;
 }
@@ -51,6 +46,8 @@ footer .owner .avatar {
   .current-section {
     left: 0px;
     margin-left: 0px;
+    max-width: 500px;
+    width: 100%;
   }
   .download-bar {
     margin: 0;
