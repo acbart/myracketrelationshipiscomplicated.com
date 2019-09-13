@@ -80,9 +80,8 @@ Summary of schools using Racket (from GitHub page) vs. Python (from [Guo](http:/
 | Waterloo              | Georgia Tech    |
 | U of Utah             | UT Austin       |
 | U of British Columbia | Caltech         |
-|                       | U Michigan      |
-|                       | Columbia        |
-|                       | Brown           |
+| U Chicago             | U Michigan      |
+| Brown                 | Columbia        |
 |                       | Purdue          |
 |                       | Rice            |
 |                       | USC             |
@@ -94,7 +93,9 @@ Summary of schools using Racket (from GitHub page) vs. Python (from [Guo](http:/
 |                       | UVA             |
 |                       | UCSB            |
 |                       | UC Davis        |
-|                       | U Chicago       |
+|                       |                 |
+
+* Did I get your school wrong? Sorry! Some of this data might be out-of-date. Please make [a pull request](https://github.com/acbart/ihateracket.com/pulls) with a link to a public syllabus or course website, and I'll happily accept all updates! I'm not trying to really keep track of this closely, I just wanted to get a sample of where the world's at right now. But I also don't want to purvey false data!
 
 <!--
 Racket
