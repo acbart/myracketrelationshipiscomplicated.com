@@ -1,3 +1,6 @@
+Notes:
+* 9/13/2019: So, a number of people have found and read this website. As I explain, the URL started as a joke with a colleague. I see now that it sets a way harsher tone than I really wanted. I fluctuate between positive and negative feelings about Racket - honestly, the whole debate is full of complicated emotions for me. I'm considering getting a new domain name, but in the meantime I do want to preface all of this by saying that I don't *really* hate Racket, so much as I have a very complex set of feelings about Racket and its surrounding educational culture and curricula. Obviously, many of the Racket folks are amazing people who have made more contributions to the world than I have. But I maintain that there's also some problems that need to be discussed here, and that for my context, Racket is still not the right choice. I think all of this will be easier when I end up buying the more accurately named "myracketrelationshipiscomplicated.com". 
+
 <!--
 Table of Contents:
 
